@@ -1,0 +1,35 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "ex1/task1",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/Exercise 1/task1.py",
+            "cwd": "${workspaceFolder}/Exercise 1",
+            "console": "integratedTerminal",
+            "port": 53571
+        },
+        {
+            "name": "ex1/task2",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/Exercise 1/task2.py",
+            "cwd": "${workspaceFolder}/Exercise 1",
+            "console": "integratedTerminal",
+            "port": 53571
+        },
+        {
+            "name": "ex1/task3",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/Exercise 1/task3.py",
+            "cwd": "${workspaceFolder}/Exercise 1",
+            "console": "integratedTerminal",
+            "port": 53571
+        }
+    ]
+}
