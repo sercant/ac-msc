@@ -39,7 +39,7 @@ for k, d in enumerate(dets):
     # 1. Load the landmark position of the standard face model
     standardModel = np.zeros((68, 2))
     tmp = 0
-    with open('mean.csv', 'rb') as csvfile:
+    with open('mean.csv', 'rt') as csvfile:
         spamreader = csv.reader(csvfile, delimiter=',')
         for row in spamreader:
             standardModel[tmp, 0] = float(row[0])
