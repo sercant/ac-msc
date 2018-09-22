@@ -30,6 +30,15 @@
             "cwd": "${workspaceFolder}/Exercise 1",
             "console": "integratedTerminal",
             "port": 53571
+        },
+        {
+            "name": "ex2/solution",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/Exercise 2/solution.py",
+            "cwd": "${workspaceFolder}/Exercise 2",
+            "console": "integratedTerminal",
+            "port": 53571
         }
     ]
 }
