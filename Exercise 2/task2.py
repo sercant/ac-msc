@@ -69,7 +69,8 @@ print(
 )
 
 # 8. Visulize the confusion matrix
-conf_proso_training = confusion_matrix(training_class, prediction_proso_training)
+conf_proso_training = confusion_matrix(
+    training_class, prediction_proso_training)
 conf_mfcc_training = confusion_matrix(training_class, prediction_mfcc_training)
 
 conf_proso_testing = confusion_matrix(testing_class, prediction_proso_testing)
@@ -82,4 +83,3 @@ print(
     'conf_proso_testing\n', conf_proso_testing, '\n',
     'conf_mfcc_testing\n', conf_mfcc_testing, '\n'
 )
-
