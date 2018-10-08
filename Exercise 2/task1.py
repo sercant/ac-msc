@@ -56,8 +56,8 @@ b = np.array([1., -coef], speech_resampled.dtype)
 a = np.array([1.], speech_resampled.dtype)
 preEmphasizedSample = signal.lfilter(b, a, speech_resampled)
 
-ax[0].plot(np.linspace(0, speechLength, len(speech_resampled)),
-           preEmphasizedSample, label='Pre-emphasized Signal')
+# ax[0].plot(np.linspace(0, speechLength, len(speech_resampled)),
+#            preEmphasizedSample, label='Pre-emphasized Signal')
 
 # 2. Extract the mfcc coefficient by callying the mfcc() function
 # remeber to set the pre-emphasize argument to 0 since the signal has been pre-emphasized.

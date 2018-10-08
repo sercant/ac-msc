@@ -32,10 +32,10 @@
             "port": 53571
         },
         {
-            "name": "ex2/solution",
+            "name": "ex2/task1",
             "type": "python",
             "request": "launch",
-            "program": "${workspaceFolder}/Exercise 2/solution.py",
+            "program": "${workspaceFolder}/Exercise 2/task1.py",
             "cwd": "${workspaceFolder}/Exercise 2",
             "console": "integratedTerminal",
             "port": 53572
