@@ -5,12 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "cwd": "${workspaceFolder}",
+            "console": "none"
+        },
+        {
             "name": "ex1/task1",
             "type": "python",
             "request": "launch",
             "program": "${workspaceFolder}/Exercise 1/task1.py",
             "cwd": "${workspaceFolder}/Exercise 1",
-            "console": "integratedTerminal",
+            "console": "none",
             "port": 53571
         },
         {
@@ -19,7 +27,7 @@
             "request": "launch",
             "program": "${workspaceFolder}/Exercise 1/task2.py",
             "cwd": "${workspaceFolder}/Exercise 1",
-            "console": "integratedTerminal",
+            "console": "none",
             "port": 53571
         },
         {
@@ -28,7 +36,7 @@
             "request": "launch",
             "program": "${workspaceFolder}/Exercise 1/task3.py",
             "cwd": "${workspaceFolder}/Exercise 1",
-            "console": "integratedTerminal",
+            "console": "none",
             "port": 53571
         },
         {
@@ -37,7 +45,7 @@
             "request": "launch",
             "program": "${workspaceFolder}/Exercise 2/task1.py",
             "cwd": "${workspaceFolder}/Exercise 2",
-            "console": "integratedTerminal",
+            "console": "none",
             "port": 53572
         },
         {
@@ -46,7 +54,7 @@
             "request": "launch",
             "program": "${workspaceFolder}/Exercise 2/task2.py",
             "cwd": "${workspaceFolder}/Exercise 2",
-            "console": "integratedTerminal",
+            "console": "none",
             "port": 53572
         }
     ]
